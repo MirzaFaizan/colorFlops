@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container'
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography'
 import TextField from '@material-ui/core/TextField';
-import SvgComponents from '../FlipFlop/FlipFlopSvg'
+import SvgComponents from '../Flipflop2/flipflop2svg'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -216,14 +216,14 @@ SOLE SECTION
             /> 
           </Grid>
           <Grid item xs={12} sm={4}>
-           <Typography component="div"  style={{ fontSize:'20px'}} > Flipflop - 01 </Typography>
+          <Typography component="div"  style={{ fontSize:'20px'}} > Flipflop - 02 </Typography>
            <Typography component="div"  style={{ fontSize:'20px'}} > Price :</Typography>
            <Typography  component="div"  style={{ fontSize:'20px', paddingTop:'20px'}}> 10 د.ك</Typography>
           </Grid>
           <Grid style={{ textAlign:'center'}} item xs={12} sm={6}>
           <br/>
           <Button variant="contained" color="primary"  style={{ textAlign:'center', fontSize:'15px', width:'45%',height:'70%'}} className={classes.button}
-            onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}/${'FlipFlop-01'}`}}>
+            onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}/${'FlipFlop-02'}`}}>
             Buy
           </Button>
           </Grid>

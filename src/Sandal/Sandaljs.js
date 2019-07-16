@@ -216,24 +216,21 @@ SOLE SECTION
             /> 
           </Grid>
           <Grid item xs={12} sm={4}>
-              <Typography component="div"  style={{ fontSize:'20px'}} > 
-              Price :</Typography>
-           <Typography  component="div"  style={{ fontSize:'20px', paddingTop:'20px'}} > 
-              12 د.ك</Typography>
-              
+           <Typography component="div"  style={{ fontSize:'20px'}} > Sandal - 02 </Typography>
+           <Typography component="div"  style={{ fontSize:'20px'}} > Price :</Typography>
+           <Typography  component="div"  style={{ fontSize:'20px', paddingTop:'20px'}}> 12 د.ك</Typography>
           </Grid>
-          <Grid style={{ textAlign:'center'}} item xs={12} sm={6}>
-          <br/>
-          <Button variant="contained" color="primary"  style={{ textAlign:'center', fontSize:'15px', width:'45%',height:'70%'}} className={classes.button}
-           onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}`}}>
-        Buy
-      </Button>
+          <Grid style={{ textAlign:'center'}} item xs={12} sm={6}><br/>
+            <Button variant="contained" color="primary"  style={{ textAlign:'center', fontSize:'15px', width:'45%',height:'70%'}} className={classes.button}
+            onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}/${'Sandal-01'}`}}>
+            Buy
+            </Button>
           </Grid>
           <Grid style={{ textAlign:'center'}} item xs={12} sm={6}>
           <br/>  <hr />
 
           <Button variant="contained" color ="" style={{ textAlign:'center', color :"black" , fontSize:'15px', width:'55%',height:'60%'}} className={classes.button}
-          onClick={()=>{window.location='http://flops.pakprintings.com'}}>
+          onClick={()=>{window.location='http://colorflops.com/'}}>
         Back to Home
       </Button>
           </Grid>

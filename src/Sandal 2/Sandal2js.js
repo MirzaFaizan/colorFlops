@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container'
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography'
 import TextField from '@material-ui/core/TextField';
-import SvgComponents from '../FlipFlop/FlipFlopSvg'
+import SvgComponents from './sandal2'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -52,7 +52,7 @@ export default function FullWidthGrid(props) {
 
   const [quant,setQuantity] = React.useState('2');
   const [size,setSize] = React.useState('M');
-  const [price,setPrice] = React.useState('10');
+  const [price,setPrice] = React.useState('12');
 
 
  
@@ -216,16 +216,21 @@ SOLE SECTION
             /> 
           </Grid>
           <Grid item xs={12} sm={4}>
-           <Typography component="div"  style={{ fontSize:'20px'}} > Flipflop - 01 </Typography>
-           <Typography component="div"  style={{ fontSize:'20px'}} > Price :</Typography>
-           <Typography  component="div"  style={{ fontSize:'20px', paddingTop:'20px'}}> 10 د.ك</Typography>
+          <Typography component="div"  style={{ fontSize:'20px'}} > 
+              Sandal - 02 </Typography>
+               <Typography component="div"  style={{ fontSize:'20px'}} > 
+              Price :</Typography>
+           <Typography  component="div"  style={{ fontSize:'20px', paddingTop:'20px'}} > 
+              12 د.ك</Typography>
+              
           </Grid>
           <Grid style={{ textAlign:'center'}} item xs={12} sm={6}>
           <br/>
           <Button variant="contained" color="primary"  style={{ textAlign:'center', fontSize:'15px', width:'45%',height:'70%'}} className={classes.button}
-            onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}/${'FlipFlop-01'}`}}>
-            Buy
-          </Button>
+           onClick={()=>{window.location=`/buy/${colorSole}/${colorStrap}/${quant}/${size}/${price}/${'Sandal-02'}`}}>
+        Buy
+      </Button>
+      
           </Grid>
           <Grid style={{ textAlign:'center'}} item xs={12} sm={6}>
           <br/>  <hr />

@@ -27,6 +27,7 @@ function MadeWithLove() {
 }
 
 function sendEmail(arr, cust){
+  alert(" Sucesfully Submitted !");
   const data = {
       "to": "usman13091996@gmail.com",
       "from": "usman13091996@gmail.com",
@@ -36,8 +37,10 @@ function sendEmail(arr, cust){
       "customerInfo": cust,
   }
   // Make a request for a user with a given ID
-axios.post('https://colorflops-api.herokuapp.com/',data,
+  axios.post('https://colorflops-api.herokuapp.com/',data,
  {"Content-Type": "application/json"})
+// axios.post('http://localhost:9091',data,
+//  {"Content-Type": "application/json"})
 .then(function (response) {
   // handle success
   console.log(response);
@@ -115,7 +118,7 @@ export default function SignUp(props) {
         <Typography component="h1" variant="h5">
           Customer Information
         </Typography>
-        <form className={classes.form} noValidate>
+        <form style={{ textAlign:'center' }} className={classes.form} noValidate>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -184,7 +187,11 @@ export default function SignUp(props) {
           >
             Order
           </Button>
-
+          <br/><br/><hr/>
+          <Button variant="contained" color ="" style={{ textAlign:'center', color :"black" , fontSize:'15px', width:'55%',height:'60%'}} className={classes.button}
+          onClick={()=>{window.location='http://colorflops.com/'}}>
+          Back to Home
+          </Button>
 
 
           
