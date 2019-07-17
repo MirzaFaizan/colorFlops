@@ -4,9 +4,9 @@ import  {BrowserRouter,Route} from 'react-router-dom'
 //components
 import Buy from '../Buy/buy'
 import FlipFlop from '../FlipFlop/FlopFlop'
-import BuildSandal from '../Sandal/Sandaljs'
-import Flipflop2 from '../Flipflop2/flipflop2js'
-import Sandal2 from '../Sandal 2/Sandal2js'
+import BuildSandal from '../Sandal/testingsandal'
+import Flipflop2 from '../Flipflop2/testingflipflop2'
+import Sandal2 from '../Sandal 2/testingsandal2'
 import Flipflop3 from '../FLipflop3/Flipflop3'
 class CustomRoutes extends Component{
 
