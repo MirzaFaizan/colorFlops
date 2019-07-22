@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography'
 import TextField from '@material-ui/core/TextField';
 import SvgComponents from './sandalsvgtesting'
-
+import img from '../img/Sandal-with-straps.jpg'
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -115,8 +115,11 @@ function ColorStrap4(value){
 
  */}
         <Grid item xs={12} sm={6} >
-         <br/> 
-         <Typography component="div" style={{ fontSize:'35px'}} > 
+        
+        {/* < Container style={{textAlign:'center'}}><img src={img} alt="With Straps Description" width="45%"/></Container>
+           */}
+           <br/>
+         <Typography component="div" style={{ fontSize:'30px'}} > 
         Straps 1 </Typography>
         <Button variant="contained" className={classes.button} onClick={()=>ColorStrap('#FFFF00')} style={{ color:'black',backgroundColor: '#FFFF00'}}  >
         Yellow 	 
@@ -174,7 +177,7 @@ function ColorStrap4(value){
  */}
         <Grid item xs={12} sm={4} >
          <br/> 
-         <Typography component="div" style={{ fontSize:'35px'}} > 
+         <Typography component="div" style={{ fontSize:'30px'}} > 
         Straps 2</Typography>
         <Button variant="contained" className={classes.button} onClick={()=>ColorStrap2('#FFFF00')} style={{ color:'black',backgroundColor: '#FFFF00'}}  >
         Yellow 	 
@@ -231,7 +234,7 @@ function ColorStrap4(value){
  */}
         <Grid item xs={12} sm={4} >
          <br/> 
-         <Typography component="div" style={{ fontSize:'35px'}} > 
+         <Typography component="div" style={{ fontSize:'30px'}} > 
         Straps 3</Typography>
         <Button variant="contained" className={classes.button} onClick={()=>ColorStrap3('#FFFF00')} style={{ color:'black',backgroundColor: '#FFFF00'}}  >
         Yellow 	 
@@ -289,7 +292,7 @@ function ColorStrap4(value){
  */}
         <Grid item xs={12} sm={4} >
          <br/> 
-         <Typography component="div" style={{ fontSize:'35px'}} > 
+         <Typography component="div" style={{ fontSize:'30px'}} > 
         Straps 4</Typography>
         <Button variant="contained" className={classes.button} onClick={()=>ColorStrap4('#FFFF00')} style={{ color:'black',backgroundColor: '#FFFF00'}}  >
         Yellow 	 

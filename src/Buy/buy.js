@@ -37,10 +37,10 @@ function sendEmail(arr, cust){
       "customerInfo": cust,
   }
   // Make a request for a user with a given ID
-  axios.post('https://colorflops-api.herokuapp.com/',data,
- {"Content-Type": "application/json"})
-// axios.post('http://localhost:9091',data,
+//   axios.post('https://colorflops-api.herokuapp.com/',data,
 //  {"Content-Type": "application/json"})
+axios.post('http://localhost:9091',data,
+ {"Content-Type": "application/json"})
 .then(function (response) {
   // handle success
   console.log(response);
@@ -92,7 +92,7 @@ export default function SignUp(props) {
     setValues({ ...values, [name]: event.target.value });
   };
 
-  const temp = props.match.params.id
+  // const temp = props.match.params.id
 
   console.log(props.location)
 
