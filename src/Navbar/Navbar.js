@@ -39,25 +39,25 @@ export default class Example extends React.Component {
                 <NavLink style={{color:'white' }}> | </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{color:'white', paddingRight:"20px"}} href="http://localhost:3000/flipflop2/">Flipflop - 02</NavLink>
+                <NavLink style={{color:'white', paddingRight:"20px"}} href="/flipflop2/">Flipflop - 02</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={{color:'white' }}> | </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{color:'white',paddingRight:"20px"}} href="http://localhost:3000/flipflop3/">Flipflop - 03</NavLink>
+                <NavLink style={{color:'white',paddingRight:"20px"}} href="/flipflop3/">Flipflop - 03</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={{color:'white' }}> | </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{color:'white',paddingRight:"20px"}} href="http://localhost:3000/sandal/">Sandal - 01</NavLink>
+                <NavLink style={{color:'white',paddingRight:"20px"}} href="/sandal/">Sandal - 01</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink style={{color:'white' }}> | </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{color:'white',paddingRight:"20px"}}href="http://localhost:3000/sandal2">Sandal - 02</NavLink>
+                <NavLink style={{color:'white',paddingRight:"20px"}}href="/sandal2/">Sandal - 02</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
