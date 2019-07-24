@@ -36,10 +36,7 @@ function sendEmail(arr, cust){
       "data":arr,
       "customerInfo": cust,
   }
-  // Make a request for a user with a given ID
-//   axios.post('https://colorflops-api.herokuapp.com/',data,
-//  {"Content-Type": "application/json"})
-axios.post('http://localhost:9091',data,
+  axios.post('https://colorflops-api.herokuapp.com/',data,
  {"Content-Type": "application/json"})
 .then(function (response) {
   // handle success
